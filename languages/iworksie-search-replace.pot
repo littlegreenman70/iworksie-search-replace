@@ -1,0 +1,594 @@
+# Copyright (C) 2026 iWorks.ie
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: iWorks.ie Search & Replace 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/app\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-27T00:04:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: iworksie-search-replace\n"
+
+#. Plugin Name of the plugin
+msgid "iWorks.ie Search & Replace"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.iworks.ie"
+msgstr ""
+
+#. Description of the plugin
+msgid "Search and replace across your database with a free row-by-row preview, a Change domain preset, serialized-safe editing and one-click undo."
+msgstr ""
+
+#. Author of the plugin
+msgid "iWorks.ie"
+msgstr ""
+
+#. translators: 1: required PHP version, 2: current PHP version
+#: iworksie-search-replace.php:47
+msgid "iWorks.ie Search & Replace requires PHP %1$s or higher. This site is running PHP %2$s."
+msgstr ""
+
+#. translators: 1: required WordPress version, 2: current WordPress version
+#: iworksie-search-replace.php:60
+msgid "iWorks.ie Search & Replace requires WordPress %1$s or higher. This site is running WordPress %2$s."
+msgstr ""
+
+#: iworksie-search-replace.php:71
+msgid "iWorks.ie Search & Replace is missing its vendor-prefixed library. Run composer install, or install the release zip from wordpress.org."
+msgstr ""
+
+#: iworksie-search-replace.php:108
+msgid "iWorks.ie Search & Replace could not load its shared tools library."
+msgstr ""
+
+#: src/Admin/Ajax.php:53
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: src/Admin/Ajax.php:77
+msgid "Another run is still in progress. Resume or stop it first."
+msgstr ""
+
+#: src/Admin/Ajax.php:113
+msgid "This preview is out of date. Run the preview again, then apply."
+msgstr ""
+
+#: src/Admin/Ajax.php:116
+msgid "The preview found nothing to change."
+msgstr ""
+
+#: src/Admin/Ajax.php:122
+msgid "The tables in this preview no longer exist."
+msgstr ""
+
+#: src/Admin/Ajax.php:140
+msgid "There is nothing left to undo for this run."
+msgstr ""
+
+#: src/Admin/Ajax.php:174
+msgid "Wait for the current run to finish first."
+msgstr ""
+
+#: src/Admin/Ajax.php:179
+msgid "That run no longer exists."
+msgstr ""
+
+#: src/Admin/Screens.php:51
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: src/Admin/Screens.php:55
+msgid "Search & replace"
+msgstr ""
+
+#: src/Admin/Screens.php:56
+msgid "Change domain"
+msgstr ""
+
+#: src/Admin/Screens.php:57
+msgid "History & undo"
+msgstr ""
+
+#. translators: 1: values changed, 2: rows, 3: tables
+#: src/Admin/Screens.php:102
+msgid "Done. Changed %1$s values in %2$s rows across %3$s tables. The original values are saved, so you can undo this from History & undo."
+msgstr ""
+
+#. translators: %s: number of rows
+#: src/Admin/Screens.php:112
+msgid "%s rows could not be written (the database refused the new value) and were left unchanged."
+msgstr ""
+
+#: src/Admin/Screens.php:117
+msgid "Undo this run"
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:125
+msgid "Undo finished. Restored %s original values."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:134
+msgid "%s values were edited again after this run (or their row was deleted), so they were left as they are now. Their originals are still saved in History & undo."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:143
+msgid "%s values could not be restored by the database."
+msgstr ""
+
+#: src/Admin/Screens.php:163
+msgid "A run was interrupted before it finished."
+msgstr ""
+
+#: src/Admin/Screens.php:165
+msgid "Changes were being applied when this run was interrupted. Everything changed so far is backed up. Resume to finish, or stop and undo it from History & undo."
+msgstr ""
+
+#: src/Admin/Screens.php:167
+msgid "An undo was interrupted. Resume to finish restoring the original values."
+msgstr ""
+
+#: src/Admin/Screens.php:169
+msgid "A preview was interrupted. Resume it or stop it to start a new one."
+msgstr ""
+
+#: src/Admin/Screens.php:173
+msgid "Stop"
+msgstr ""
+
+#: src/Admin/Screens.php:213
+msgid "What to change"
+msgstr ""
+
+#: src/Admin/Screens.php:215
+msgid "Search for"
+msgstr ""
+
+#: src/Admin/Screens.php:218
+msgid "Replace with"
+msgstr ""
+
+#: src/Admin/Screens.php:220
+msgid "Leave empty to delete the matched text."
+msgstr ""
+
+#: src/Admin/Screens.php:223
+msgid "I understand: very short searches can match inside other words (for example \"cat\" inside \"category\")."
+msgstr ""
+
+#: src/Admin/Screens.php:225
+msgid "Upper and lower case"
+msgstr ""
+
+#: src/Admin/Screens.php:227
+msgid "Match exactly"
+msgstr ""
+
+#: src/Admin/Screens.php:227
+msgid "Searching \"Apple\" finds \"Apple\" only, not \"apple\" or \"APPLE\"."
+msgstr ""
+
+#: src/Admin/Screens.php:229
+msgid "Ignore case"
+msgstr ""
+
+#: src/Admin/Screens.php:229
+msgid "Searching \"Apple\" also finds \"apple\" and \"APPLE\", and replaces them all with exactly what you typed above."
+msgstr ""
+
+#: src/Admin/Screens.php:232
+msgid "Advanced"
+msgstr ""
+
+#: src/Admin/Screens.php:233
+msgid "Treat the search as a regular expression"
+msgstr ""
+
+#: src/Admin/Screens.php:234
+msgid "For developers. Type the pattern without delimiters, e.g. colou?r or (\\d{4})-(\\d{2}). Use $1, $2 in the replacement to reuse captured groups. Off by default: with it off, every character is matched literally."
+msgstr ""
+
+#: src/Admin/Screens.php:263
+msgid "Move this site to a new address"
+msgstr ""
+
+#: src/Admin/Screens.php:264
+msgid "Use this after copying a site to a new domain, or moving from http to https. It finds every form the old address is stored in, including the ones a plain search misses."
+msgstr ""
+
+#: src/Admin/Screens.php:266
+msgid "Old address"
+msgstr ""
+
+#: src/Admin/Screens.php:269
+msgid "New address"
+msgstr ""
+
+#: src/Admin/Screens.php:271
+msgid "Filled in with this site's current address. Include https:// and any sub-folder, with no trailing slash."
+msgstr ""
+
+#: src/Admin/Screens.php:273
+msgid "Also change the www / non-www version of the old address"
+msgstr ""
+
+#: src/Admin/Screens.php:275
+msgid "This covers:"
+msgstr ""
+
+#: src/Admin/Screens.php:276
+msgid "http://, https:// and protocol-relative //old-site.com links (all become the new address, so http links are upgraded too)"
+msgstr ""
+
+#: src/Admin/Screens.php:277
+msgid "JSON-escaped links such as https:\\/\\/old-site.com used by page builders and blocks"
+msgstr ""
+
+#. translators: %s: example of a URL-encoded address
+#: src/Admin/Screens.php:279
+msgid "URL-encoded links such as %s in share buttons and redirects"
+msgstr ""
+
+#: src/Admin/Screens.php:280
+msgid "Links inside serialized settings (widgets, theme options), with lengths fixed so nothing breaks"
+msgstr ""
+
+#: src/Admin/Screens.php:281
+msgid "It will not touch look-alike domains: old-site.com.au or old-site.company stay as they are. Plain mentions without http or // (such as email addresses) are not changed; use the Search & replace tab for those."
+msgstr ""
+
+#: src/Admin/Screens.php:305
+msgid "Where to look"
+msgstr ""
+
+#: src/Admin/Screens.php:307
+msgid "WordPress tables"
+msgstr ""
+
+#: src/Admin/Screens.php:308
+msgid "All tables"
+msgstr ""
+
+#: src/Admin/Screens.php:309
+msgid "None"
+msgstr ""
+
+#: src/Admin/Screens.php:312
+msgid "Tables"
+msgstr ""
+
+#: src/Admin/Screens.php:322
+msgid "Passwords and this plugin's own data are never changed."
+msgstr ""
+
+#: src/Admin/Screens.php:323
+msgid "Also change post GUIDs"
+msgstr ""
+
+#: src/Admin/Screens.php:324
+msgid "Usually leave this off. GUIDs are permanent IDs that feed readers use to spot new posts; WordPress recommends never changing them on a live site. Turn it on for a brand-new copy that has never been public."
+msgstr ""
+
+#: src/Admin/Screens.php:335
+msgid "Preview changes"
+msgstr ""
+
+#: src/Admin/Screens.php:336
+msgid "Nothing is changed yet. You will see every change first."
+msgstr ""
+
+#: src/Admin/Screens.php:352
+msgid "Preview"
+msgstr ""
+
+#. translators: %s: time ago, e.g. "2 mins"
+#: src/Admin/Screens.php:356
+msgid "%s ago"
+msgstr ""
+
+#: src/Admin/Screens.php:362
+msgid "No matches found. Nothing would change."
+msgstr ""
+
+#: src/Admin/Screens.php:364
+msgid "Clear preview"
+msgstr ""
+
+#. translators: 1: matches, 2: values, 3: rows, 4: tables
+#: src/Admin/Screens.php:372
+msgid "%1$s matches in %2$s values (%3$s rows) across %4$s tables would change."
+msgstr ""
+
+#: src/Admin/Screens.php:381
+msgid "This changes your site address. After applying, you will need to log in again at the new address."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:394
+msgid "%s value left alone (see below)."
+msgid_plural "%s values left alone (see below)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Screens.php:408
+msgid "Table"
+msgstr ""
+
+#: src/Admin/Screens.php:409
+msgid "Rows"
+msgstr ""
+
+#: src/Admin/Screens.php:410
+#: src/Admin/Screens.php:527
+msgid "Values"
+msgstr ""
+
+#: src/Admin/Screens.php:411
+msgid "Notes"
+msgstr ""
+
+#: src/Admin/Screens.php:419
+msgid "Every change, row by row"
+msgstr ""
+
+#. translators: 1: shown, 2: total
+#: src/Admin/Screens.php:424
+msgid "Showing the first %1$s of %2$s changed values. The counts above include all of them."
+msgstr ""
+
+#. translators: %s: row id
+#: src/Admin/Screens.php:437
+msgid "row %s"
+msgstr ""
+
+#. translators: %s: number of matches
+#: src/Admin/Screens.php:445
+msgid "%s matches"
+msgstr ""
+
+#: src/Admin/Screens.php:452
+msgid "Before"
+msgstr ""
+
+#: src/Admin/Screens.php:453
+msgid "After"
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:463
+msgid "Apply %s change"
+msgid_plural "Apply %s changes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Screens.php:467
+msgid "Discard preview"
+msgstr ""
+
+#: src/Admin/Screens.php:468
+msgid "Before anything is written, the original of every changed value is saved, so you can undo this run from History & undo. A full database backup is still a good idea before large changes."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:486
+msgid "%s values hold serialized PHP data in a format this plugin could not read safely, so they were left unchanged."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:488
+msgid "%s serialized values would not have been readable after the change, so they were left unchanged."
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:490
+msgid "%s values were too large or complex for the regular expression and were left unchanged."
+msgstr ""
+
+#: src/Admin/Screens.php:512
+msgid "Applied runs"
+msgstr ""
+
+#. translators: %d: number of runs
+#: src/Admin/Screens.php:516
+msgid "The last %d run keeps its undo data. Older runs are removed automatically."
+msgid_plural "The last %d runs keep their undo data. Older runs are removed automatically."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/Screens.php:522
+msgid "No changes applied yet. Runs you apply will appear here with an Undo button."
+msgstr ""
+
+#: src/Admin/Screens.php:527
+msgid "When"
+msgstr ""
+
+#: src/Admin/Screens.php:527
+msgid "Change"
+msgstr ""
+
+#: src/Admin/Screens.php:527
+msgid "Status"
+msgstr ""
+
+#: src/Admin/Screens.php:527
+msgid "Undo data"
+msgstr ""
+
+#: src/Admin/Screens.php:527
+msgid "Actions"
+msgstr ""
+
+#: src/Admin/Screens.php:543
+msgid "domain"
+msgstr ""
+
+#: src/Admin/Screens.php:551
+msgid "Undo"
+msgstr ""
+
+#: src/Admin/Screens.php:553
+msgid "Delete undo data"
+msgstr ""
+
+#: src/Admin/Screens.php:557
+msgid "Undo puts back the original value of every cell this run changed. If a value was edited again since, it is left as it is now, so newer work is never overwritten. When undoing several runs, undo the newest first."
+msgstr ""
+
+#: src/Admin/Screens.php:572
+msgid "Applied"
+msgstr ""
+
+#: src/Admin/Screens.php:574
+msgid "Undone"
+msgstr ""
+
+#. translators: %s: number of values
+#: src/Admin/Screens.php:578
+msgid "Partly undone: %s values had changed again and were left as they are"
+msgstr ""
+
+#: src/Admin/Screens.php:582
+msgid "In progress"
+msgstr ""
+
+#: src/Admin/Screens.php:582
+msgid "Stopped part-way (changes so far can be undone)"
+msgstr ""
+
+#: src/Admin/Screens.php:596
+msgid "Skipped: this table has no primary key, so changes could not be undone safely."
+msgstr ""
+
+#: src/Admin/Screens.php:598
+msgid "Skipped: the table could not be read."
+msgstr ""
+
+#: src/Admin/Screens.php:600
+msgid "Stopped: the database returned an error while reading this table."
+msgstr ""
+
+#: src/Admin/Screens.php:637
+msgid "removed"
+msgstr ""
+
+#: src/Jobs/SearchReplaceJob.php:53
+msgid "This request expired. Please try again."
+msgstr ""
+
+#: src/Jobs/SearchReplaceJob.php:70
+msgid "Starting undo…"
+msgstr ""
+
+#: src/Jobs/SearchReplaceJob.php:94
+msgid "Starting…"
+msgstr ""
+
+#. translators: 1: values processed, 2: total values
+#: src/Jobs/SearchReplaceJob.php:571
+msgid "Restoring original values: %1$s of %2$s…"
+msgstr ""
+
+#: src/Jobs/SearchReplaceJob.php:635
+msgid "Finished."
+msgstr ""
+
+#. translators: 1: table name, 2: table number, 3: number of tables
+#: src/Jobs/SearchReplaceJob.php:640
+msgid "Changing %1$s (table %2$d of %3$d)…"
+msgstr ""
+
+#. translators: 1: table name, 2: table number, 3: number of tables
+#: src/Jobs/SearchReplaceJob.php:642
+msgid "Checking %1$s (table %2$d of %3$d)…"
+msgstr ""
+
+#: src/Plugin.php:75
+#: src/Plugin.php:93
+#: src/Plugin.php:94
+msgid "Search & Replace"
+msgstr ""
+
+#: src/Plugin.php:80
+msgid "Search and replace across your database with a free row-by-row preview and one-click undo."
+msgstr ""
+
+#: src/Plugin.php:82
+msgid "See every change before it happens, and undo any run with one click."
+msgstr ""
+
+#: src/Plugin.php:129
+msgid "Checking your request…"
+msgstr ""
+
+#: src/Plugin.php:130
+msgid "Something went wrong. Reload the page and try again."
+msgstr ""
+
+#: src/Plugin.php:131
+msgid "Stopped."
+msgstr ""
+
+#. translators: %d: number of tables
+#: src/Plugin.php:133
+msgid "%d selected"
+msgstr ""
+
+#: src/Plugin.php:134
+msgid "Delete the undo data for this run? You will no longer be able to undo it."
+msgstr ""
+
+#: src/Plugin.php:135
+msgid "A run is in progress. If you leave, you can resume it later."
+msgstr ""
+
+#: src/Support/RunConfig.php:74
+msgid "Enter the old address as a full URL, for example https://old-site.com"
+msgstr ""
+
+#: src/Support/RunConfig.php:77
+msgid "Enter the new address as a full URL, for example https://new-site.com"
+msgstr ""
+
+#: src/Support/RunConfig.php:80
+msgid "The old and new addresses are the same, so there is nothing to change."
+msgstr ""
+
+#: src/Support/RunConfig.php:84
+msgid "Enter the text to search for."
+msgstr ""
+
+#: src/Support/RunConfig.php:86
+msgid "Search and replace text must be under 4,096 characters."
+msgstr ""
+
+#: src/Support/RunConfig.php:88
+msgid "The search and replace text are identical, so nothing would change."
+msgstr ""
+
+#. translators: %d: minimum number of characters
+#: src/Support/RunConfig.php:92
+msgid "Searches shorter than %d characters often match far more than you expect (for example inside other words). Tick \"I understand\" to search anyway."
+msgstr ""
+
+#: src/Support/RunConfig.php:99
+msgid "That regular expression is not valid. Check brackets and special characters, or turn regular expressions off to search for the text exactly as typed."
+msgstr ""
+
+#: src/Support/RunConfig.php:101
+msgid "That regular expression can match empty text, which would insert the replacement everywhere. Make it more specific."
+msgstr ""
+
+#: src/Support/RunConfig.php:107
+msgid "Choose at least one table."
+msgstr ""
